@@ -1,60 +1,81 @@
-body {
-    font-family: 'Roboto', sans-serif;
+
+body{
+    font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #794848;
+    color: white;
 }
 
-#cabeçalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+.section-title{
+    font-family: "Playwrite GB S", cursive;
+}
+#cabecalho .nav-link{
+    color:white;
 }
 
-#cabeçalho .nav .nav-link,
-.navbar-brand,
-.navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-    color: #fff;
+#cabecalho .nav-link.active, #contato button {
+    background-color: whi;
+    color: #eecc0e;
 }
 
-.navbar-toggler {
-    background-color: #ffeadf;
-}
-
-.section-title {
-    font-family: 'Pacifico', cursive;
-}
-
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
+.navbar-toggler{
+    background-color: #794848;
 }
 
 .text-colored {
-    color: #e15f41;  
-}
-.nav-cardapio .nav-link.active,
-#fale-conosco button {
-    background-color: #e15f41;
-    color: #fff;
+    color: #ffff;
 }
 
-.nav-cardapio .nav-link:hover {
-    color: #e15f41;
+#sobre-livraria, #acervo{
+    background-color:#794848;
+}
+.text-colored-light {
+    color: whi;
 }
 
-.social-link li{
-    list-style: none;
+.text-colored-green {
+    color: #9b881e;
+}
+
+#acervo .nav-link.active {
+    background-color: #ffffff;
+    color:whi;
+}
+
+#acervo .nav-link {
+    color: #9b881e;
+}
+
+.social-links li{
     display: inline;
-}.social-link a{
+    list-style: none;
+}
+
+.social-links a{
     text-decoration: none;
 }
 
-@midia (max-width:767 px){
-      .carousel-item img{
-        height: 2080 px;
-      }
+#acervo .tab-pane img {
+    width: 200px;
+    height: 350px;
 }
+
+
+@media (max-width: 767px){
+    
+    #acervo .tab-pane img {
+        height: 500px;
+    }
+    
+}
+
+
+.carousel-inner {
+    padding: 0; 
+}
+
 
 
 
