@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auguste Gusteau</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeçalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Auguste Gusteau</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+    </section>
+    <div data-bs-spy="scroll" data-bs-target="#cabeçalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre-o-restaurante">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/slides/slide1.png" class="d-block w-100" alt="foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slides/slide2.png" class="d-block w-100" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slides/slide3.png" class="d-block w-100" alt="Uma mesa com alimento">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 ">
+                            <img src="./images/restaurante.jpg" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>"Desfrute de uma experiência gastronômica refinada em nosso restaurante fino, onde cada prato é uma obra-prima de sabores e apresentação."</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>"Nosso restaurante oferece um ambiente elegante e acolhedor, ideal para momentos memoráveis, onde cada detalhe foi cuidadosamente pensado para proporcionar conforto e sofisticação aos nossos clientes."</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/aniversario.jpg" alt="Aniversário" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversário
+                        </h3>
+                        <p>Comemore seu aniversário em grande estilo! Oferecemos tudo o que você precisa para tornar seu dia especial, repleto de momentos inesquecíveis e muita alegria.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/casamento.jpg" alt="Casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Casamento
+                        </h3>
+                        <p>Transforme seu sonho de casamento em realidade com nossos serviços personalizados e atenção aos mínimos detalhes, garantindo um dia inesquecível e repleto de amor.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/confraternizacoes.jpg" alt="Confraternizações" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>Junte-se a nós para celebrar momentos especiais com amigos e familiares em um ambiente acolhedor e festivo, perfeito para confraternizações inesquecíveis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas"class=" fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas"class=" fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais"class=" fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Descubra o sabor refrescante que une pessoas e momentos especiais. Coca-Cola, a magia está em cada gota</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/suco.jpg" alt="suco">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>Revitalize seu dia com o frescor natural e o sabor irresistível de nosso suco. Pureza e saúde em cada gole.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/limonada.jpg" alt="cha">
+                                        <h5 class="text-colored fw-bold mt-2">Chá com limão</h5>
+                                        <p>Desperte seus sentidos com o equilíbrio perfeito do frescor do limão e a suavidade do chá. Sinta o sabor revigorante em cada gole</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/agua.jpg" alt="agua">
+                                        <h5 class="text-colored fw-bold mt-2">Água</h5>
+                                        <p>Hidrate-se com a pureza cristalina da nossa água. A refrescância natural que seu corpo merece a cada gole.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/limonada suiça.jpg" alt="suiça">
+                                        <h5 class="text-colored fw-bold mt-2">Limonada Suiça</h5>
+                                        <p>Saboreie a perfeição da nossa limonada suíça: o equilíbrio refrescante do limão e a suavidade do leite condensado. Um toque de frescor e cremosidade.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/energetico.jpg" alt="energetico">
+                                        <h5 class="text-colored fw-bold mt-2">Energéticos</h5>
+                                        <p>Libere sua energia com nosso energético. Potência e vitalidade em cada gole para impulsionar seu dia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/cerveja.jpg" alt="cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Cervejas</h5>
+                                        <p>Desfrute do sabor inconfundível da nossa cerveja. Refrescante e cheia de personalidade, perfeita para qualquer ocasião.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/bebidas/vinho.jpg" alt="vinhos">
+                                        <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                        <p>Descubra a elegância e o sabor refinado dos nossos vinhos. Cada garrafa conta uma história de tradição e qualidade, ideal para celebrar momentos especiais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/entrada.jpg" alt="frios">
+                                        <h5 class="text-colored fw-bold mt-2">Combinado de Frios</h5>
+                                        <p>Delicie-se com nossa seleção de frios premium, onde cada mordida é um encontro com o sabor artesanal e a qualidade excepcional. Perfeito para apreciadores de momentos especiais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/combinado.jpg" alt="combinado">
+                                        <h5 class="text-colored fw-bold mt-2">Sushi</h5>
+                                        <p>Sinta a frescura do mar em cada peça do nosso sushi artesanal. Uma explosão de sabores e texturas que elevam sua experiência gastronômica a um novo patamar.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/Frutos do mar.jpg" alt="frutos-do-mar">
+                                        <h5 class="text-colored fw-bold mt-2">Taça frutos do mar</h5>
+                                        <p>Explore a riqueza do mar com nossos frescos e deliciosos frutos do mar. Cada prato é uma celebração dos sabores marinhos, preparados com cuidado e paixão.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/saladas.jpg" alt="saladas">
+                                        <h5 class="text-colored fw-bold mt-2">Saladas</h5>
+                                        <p>Revitalize seu paladar com nossas saladas frescas e vibrantes, repletas de ingredientes nutritivos e sabores que inspiram bem-estar. Uma escolha leve e deliciosa para qualquer ocasião.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/costela.jpg" alt="costela">
+                                        <h5 class="text-colored fw-bold mt-2">Costelinha</h5>
+                                        <p>Delicie-se com nossa costelinha suculenta, preparada com carinho e temperos especiais que realçam seu sabor único. Uma experiência gastronômica irresistível que vai conquistar seu paladar.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/Carnes.jpg" alt="bifes">
+                                        <h5 class="text-colored fw-bold mt-2">Cortes finos</h5>
+                                        <p>Desfrute da excelência dos nossos cortes finos, onde cada mordida é uma experiência de sabor incomparável. Escolha a perfeição para os amantes da carne.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizzas</h5>
+                                        <p>Saboreie a tradição italiana em cada fatia das nossas pizzas artesanais, preparadas com ingredientes frescos e uma massa irresistivelmente crocante. A verdadeira paixão pela pizza em cada pedaço.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/salmao.jpg" alt="salmao">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>"Delicie-se com a delicadeza e o sabor incomparável do nosso salmão fresco, preparado com maestria para uma experiência gastronômica que eleva os sentidos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/tiras.jpg" alt="tiras">
+                                        <h5 class="text-colored fw-bold mt-2">Misto</h5>
+                                        <p>Explore o melhor dos sabores em nosso prato misto de carne com legumes frescos. Uma combinação harmoniosa de texturas e aromas que agrada a todos os paladares.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Delicie-se com a maciez e o sabor irresistível do nosso bolo artesanal, feito com ingredientes selecionados para adoçar momentos especiais com cada fatia.</p>
+                                    </div>
+
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="cup-cake">
+                                            <h5 class="text-colored fw-bold mt-2">Cup cake</h5>
+                                            <p>Encante-se com a perfeição em miniatura dos nossos cupcakes, onde cada mordida é uma explosão de sabor e delicadeza. Uma doçura irresistível para qualquer ocasião.</p>
+                                        </div>
+                                       
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/sobremesas/ice-cream-3611698_640.jpg" alt="sorvete">
+                                                <h5 class="text-colored fw-bold mt-2">Sorvetes</h5>
+                                                <p>Refresque-se com a cremosidade e os sabores irresistíveis dos nossos sorvetes artesanais. Cada colher é uma viagem sensorial que vai encantar seu paladar.</p>
+                                            </div>
+                                        
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100" src="./images/cardapio/sobremesas/tart-1283822_640.jpg" alt="torta-de-morango">
+                                                    <h5 class="text-colored fw-bold mt-2">Torta de morango</h5>
+                                                    <p>Delicie-se com a doçura natural e a suavidade da nossa torta de morango, onde cada pedaço é uma celebração da temporada de frutas frescas. Um prazer irresistível em cada garfada.</p>
+                                                </div>
+                                               
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/dessert-1786311_640.jpg" alt="amora">
+                                                        <h5 class="text-colored fw-bold mt-2">Torta de amora</h5>
+                                                        <p>Desfrute da doçura intensa e refrescante das nossas amoras frescas, perfeitas para adicionar um toque de sofisticação e sabor às suas sobremesas e pratos especiais.</p>
+                                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div>
+                            <label for="nome" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea  class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <Ul class="social-link">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </Ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>Rue de la Liberté nº75001 Paris França</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </sectio>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
